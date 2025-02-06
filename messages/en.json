@@ -85,7 +85,7 @@
       "title": "Software Engineer",
       "description": {
         "1": "Achieved a 20% throughput improvement by migrating a backend API from .NET Framework to .NET Core 1.1.",
-        "2": "eveloped a QR code scanner in C# for the company warehouse management system using the ImageSharp library, streamlining product identification and inventory management."
+        "2": "Developed a QR code scanner in C# for the company warehouse management system using the ImageSharp library, streamlining product identification and inventory management."
       }
     }
   },
