@@ -6,7 +6,7 @@ export const AboutSection = () => {
 
   return (
     <Section title={t("sections.about")}>
-      <p className="text-pretty font-space-mono text-[15px] text-muted-foreground">
+      <p className="text-pretty font-space-mono text-base text-muted-foreground">
         {t("summary")}
       </p>
     </Section>

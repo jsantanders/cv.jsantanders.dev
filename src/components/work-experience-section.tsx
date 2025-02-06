@@ -56,17 +56,17 @@ export const WorkExperienceSection = () => {
                           ))}
                         </span>
                       </h3>
-                      <h4 className="font-space-mono text-[15px] leading-none">
+                      <h4 className="font-space-mono text-base leading-none">
                         {work.title}
                       </h4>
                     </div>
                   </div>
-                  <div className="text-end text-[15px] tabular-nums text-muted-foreground">
+                  <div className="text-end text-base tabular-nums text-muted-foreground">
                     {work.start} - {work.end}
                   </div>
                 </div>
               </CardHeader>
-              <CardContent className="flex flex-col text-[15px] pt-2 space-y-4">
+              <CardContent className="flex flex-col text-base pt-2 space-y-4">
                 <ul className="ml-3 flex list-disc flex-col space-y-2">
                   {work.description.map((desc, index) => (
                     // biome-ignore lint/suspicious/noArrayIndexKey: yolo
