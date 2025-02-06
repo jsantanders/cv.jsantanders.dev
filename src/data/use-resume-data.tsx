@@ -198,7 +198,7 @@ export const useResumeData = () => {
     projects: [
       {
         title: t("projects.blog.title"),
-        techStack: ["Side Project", "TypeScript", "Next.js", "MDX"],
+        techStack: ["TypeScript", "Next.js", "MDX"],
         description: t("projects.blog.description"),
         link: {
           label: "jsantanders.dev",
@@ -207,7 +207,7 @@ export const useResumeData = () => {
       },
       {
         title: t("projects.learning.title"),
-        techStack: ["Side Project", "Quarto", "R", "Statistics"],
+        techStack: ["Quarto", "R", "Statistics"],
         description: t("projects.learning.description"),
         link: {
           label: "learning.jsantanders.dev",
@@ -216,7 +216,7 @@ export const useResumeData = () => {
       },
       {
         title: t("projects.ddd.title"),
-        techStack: ["Side Project", "Nest.js", "DDD", "CQRS"],
+        techStack: ["Nest.js", "DDD", "CQRS"],
         description: t("projects.ddd.description"),
         link: {
           label: "github.com",

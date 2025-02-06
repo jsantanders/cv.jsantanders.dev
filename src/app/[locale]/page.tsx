@@ -50,10 +50,10 @@ export default function Page(props: Props) {
         <div className="flex items-center justify-between">
           <div className="flex-1 space-y-2">
             <h1 className="text-3xl font-bold">{resumeData.name}</h1>
-            <p className="max-w-md text-pretty font-space-mono text-sm text-muted-foreground">
+            <p className="max-w-md text-pretty font-space-mono text-[15px] text-muted-foreground">
               {t("about")}
             </p>
-            <p className="max-w-md items-baseline text-pretty font-space-mono text-sm text-muted-foreground hover:[&_a]:underline hover:[&_a]:underline-offset-4">
+            <p className="max-w-md items-baseline text-pretty font-space-mono text-[15px] text-muted-foreground hover:[&_a]:underline hover:[&_a]:underline-offset-4">
               <a
                 className="inline-flex gap-x-1.5 align-baseline leading-none"
                 href={resumeData.locationLink}
@@ -64,7 +64,7 @@ export default function Page(props: Props) {
                 {resumeData.location}
               </a>
             </p>
-            <div className="flex gap-x-1 font-space-mono text-sm text-muted-foreground print:hidden">
+            <div className="flex gap-x-1 font-space-mono text-[15px] text-muted-foreground print:hidden">
               {resumeData.contact.social.map((social) => (
                 <Button
                   key={social.name}

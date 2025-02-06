@@ -15,7 +15,7 @@ export const PublicationsSection = async () => {
             <CardHeader>
               <div className="flex items-center justify-between gap-x-2 text-base">
                 <h3 className="font-semibold leading-none">{pub.publisher}</h3>
-                <div className="text-sm tabular-nums text-muted-foreground">
+                <div className="text-[15px] tabular-nums text-muted-foreground">
                   {pub.date}
                 </div>
               </div>

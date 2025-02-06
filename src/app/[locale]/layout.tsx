@@ -16,7 +16,7 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 const spaceMono = Space_Mono({
-  weight: "400",
+  weight: ["400", "700"],
   variable: "--font-space-mono",
   subsets: ["latin"],
 });
