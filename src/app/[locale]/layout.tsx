@@ -41,7 +41,7 @@ export default async function RootLayout({
   return (
     <html
       lang={locale}
-      className={`${spaceGrotesk.variable} ${spaceMono.variable}`}
+      className={`${spaceGrotesk.variable} ${spaceMono.variable} font-sans antialiased`}
     >
       <body>
         <ThemeProvider

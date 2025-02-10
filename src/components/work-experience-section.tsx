@@ -74,7 +74,7 @@ export const WorkExperienceSection = () => {
                   ))}
                 </ul>
                 <div className="flex space-x-1 items-center">
-                  {t("sections.skills")}:
+                  {t("sections.skills")}:{" "}
                   {work.skills.map((skill, index) => (
                     <Badge
                       variant="outline"
